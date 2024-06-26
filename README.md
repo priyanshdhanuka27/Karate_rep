@@ -1,1 +1,1 @@
-Please visit [Sammamish Kyokushin Website](sammamishkyokushin.org) to access the website
+Please visit [Sammamish Kyokushin Website](https://sammamishkyokushin.org/) to access the website

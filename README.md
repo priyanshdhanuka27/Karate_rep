@@ -1,1 +1,1 @@
-Please visit <li> sammamishkyokushin.org</li> to access the website
+Please visit [Sammamish Kyokushin Website](sammamishkyokushin.org) to access the website

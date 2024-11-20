@@ -20,14 +20,17 @@
                 <img class="logo" src="static/images/judo.png" alt="Logo Here" style="width: 55px; height: 55px;">
             </a>
         </div>
-        <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about/about.html">Our Dojo</a></li>
-                <li><a href="train/train.html">Train With Us</a></li>
-                <li><a href="contact/contact.html">Contact Us</a></li>
+        <ul id="myLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about/about.html">Our Dojo</a></li>
+            <li><a href="train/train.html">Train With Us</a></li>
+            <li><a href="contact/contact.html">Contact Us</a></li>
         </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
     </div>
-</nav>
+  </nav>
   <!-- Showcase -->
   <div id="showcase">
     <div class="container">
@@ -97,7 +100,21 @@
     <footer id="main-footer">
         <p>&copy; 2006-2024 Eastside Kyokushin. <br> Eastside Kyokushin is a registered 501(c)(3) non-profit dedicated to providing practical, high quality, and affordable martial arts training
           to people of all backgrounds through the study of Kyoksuhinkai karate. Eastside Kyokushin does not discriminate based on race, color, religion, gender, disability, or national origin.</p>   
-    </footer>      
+    </footer>
+    
+    
+    <script>
+      // Toggle menu function for mobile
+      function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+              x.style.display = "none";
+          } else {
+              x.style.display = "block";
+          }
+      }
+  </script>
 </body>
+
 </html>
   

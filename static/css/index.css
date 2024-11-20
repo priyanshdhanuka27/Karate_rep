@@ -60,17 +60,11 @@ a {
 #showcase {
   background: url("./showcase.png") no-repeat center center/cover;
   height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .showcase-content {
   text-align: center;
   padding: 20% 0;
-  color: white;
-  max-width: 800px;
 }
 
 #showcase .showcase-content h1 {
